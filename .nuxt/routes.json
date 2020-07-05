@@ -1,0 +1,37 @@
+[
+  {
+    "name": "course",
+    "path": "/course",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\course\\\\index.vue",
+    "chunkName": "pages/course/index",
+    "_name": "_3dd897df"
+  },
+  {
+    "name": "teacher",
+    "path": "/teacher",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\teacher\\\\index.vue",
+    "chunkName": "pages/teacher/index",
+    "_name": "_33c35050"
+  },
+  {
+    "name": "course-id",
+    "path": "/course/:id",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\course\\\\_id.vue",
+    "chunkName": "pages/course/_id",
+    "_name": "_9fcdf3f2"
+  },
+  {
+    "name": "teacher-id",
+    "path": "/teacher/:id",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\teacher\\\\_id.vue",
+    "chunkName": "pages/teacher/_id",
+    "_name": "_cedf1f80"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_688d125a"
+  }
+]
