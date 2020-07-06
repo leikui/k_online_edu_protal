@@ -14,6 +14,20 @@
     "_name": "_33c35050"
   },
   {
+    "name": "user-login",
+    "path": "/user/login",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\user\\\\login.vue",
+    "chunkName": "pages/user/login",
+    "_name": "_4b683d46"
+  },
+  {
+    "name": "user-register",
+    "path": "/user/register",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\user\\\\register.vue",
+    "chunkName": "pages/user/register",
+    "_name": "_1478e454"
+  },
+  {
     "name": "course-id",
     "path": "/course/:id",
     "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\course\\\\_id.vue",

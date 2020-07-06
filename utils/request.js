@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { MessageBox, Message } from 'element-ui'
-// import store from '@/store'
+import cookie from 'js-cookie'
 
 // create an axios instance
 const service = axios.create({
@@ -9,16 +9,18 @@ const service = axios.create({
   timeout: 50000 // request timeout
 })
 
-// request interceptor
-// service.interceptors.request.use(
-//
-//   error => {
-//     // do something with request error
-//     console.log(error) // for debug
-//     return Promise.reject(error)
-//   }
-// )
-
+// http request 拦截器
+service.interceptors.request.use(
+  config => {
+    //debugger
+    if (cookie.get('oyyo_token')) {
+      config.headers['token'] = cookie.get('oyyo_token');
+    }
+    return config
+  },
+  err => {
+    return Promise.reject(err);
+  })
 // response interceptor
 service.interceptors.response.use(
   /**
