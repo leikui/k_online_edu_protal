@@ -1,9 +1,9 @@
 <template>
   <div class="main">
     <div class="title">
-      <a class="active" href="/login">登录</a>
+      <a class="active" href="/user/login">登录</a>
       <span>·</span>
-      <a href="/register">注册</a>
+      <a href="/user/register">注册</a>
     </div>
     <div class="sign-up-container">
       <el-form ref="userForm" :model="user">
@@ -53,13 +53,14 @@
     methods: {
       submitLogin(){
         loginApi.submitLogin(this.user).then(response => {
-          if(response.data.success){
+          debugger
+          if(response.success){
             //把token存在cookie中、也可以放在localStorage中
             cookie.set('oyyo_token', response.data.token, { domain: 'localhost' })
             //登录成功根据token获取用户信息
             loginApi.getLoginInfo().then(response => {
 
-              this.loginInfo = response.data.item
+              this.loginInfo = response.data.userInfo
               //将用户信息记录cookie
               cookie.set('oyyo_ucenter', this.loginInfo, { domain: 'localhost' })
               //跳转页面

@@ -11,17 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a6cd34-4ef7-45fe-98a2-c5f5ea8747f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/nuxt-swiper-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/request.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teacher/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacher/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/teacher/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacher/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +43,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wrok\IdeaProjects\k_online_edu_protal\k_online_edu_protal\api" />
       <recent name="D:\wrok\IdeaProjects\k_online_edu_protal\k_online_edu_protal\assets" />
     </key>
   </component>
@@ -66,7 +62,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593875744822</updated>
-      <workItem from="1593875746084" duration="28984000" />
+      <workItem from="1593875746084" duration="39846000" />
     </task>
     <servers />
   </component>
@@ -83,5 +79,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1594136215637">
+      <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1440.929@0.0.1440.929" timestamp="1594136215637" />
   </component>
 </project>
