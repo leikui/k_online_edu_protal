@@ -35,6 +35,13 @@
     "_name": "_9fcdf3f2"
   },
   {
+    "name": "player-videoId",
+    "path": "/player/:videoId?",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\player\\\\_videoId.vue",
+    "chunkName": "pages/player/_videoId",
+    "_name": "_7c219380"
+  },
+  {
     "name": "teacher-id",
     "path": "/teacher/:id",
     "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\teacher\\\\_id.vue",

@@ -11,12 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a6cd34-4ef7-45fe-98a2-c5f5ea8747f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/vod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layouts/video.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/player/_videoId.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teacher/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacher/_id.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/teacher/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/teacher/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/user/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -62,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593875744822</updated>
-      <workItem from="1593875746084" duration="39846000" />
+      <workItem from="1593875746084" duration="60565000" />
     </task>
     <servers />
   </component>
@@ -81,9 +85,13 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1594136215637">
+    <state x="377" y="213" key="run.anything.popup" timestamp="1594219930765">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1440.929@0.0.1440.929" timestamp="1594136215637" />
+    <state x="377" y="213" key="run.anything.popup/0.0.1440.929@0.0.1440.929" timestamp="1594219930765" />
+    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1594386704951">
+      <screen x="0" y="0" width="1440" height="929" />
+    </state>
+    <state x="383" y="198" width="672" height="678" key="search.everywhere.popup/0.0.1440.929@0.0.1440.929" timestamp="1594386704951" />
   </component>
 </project>

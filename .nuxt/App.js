@@ -7,8 +7,9 @@ import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import _6f6c098b from '..\\layouts\\default.vue'
 import _2d297eb3 from '..\\layouts\\sign.vue'
+import _78309245 from '..\\layouts\\video.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b),"_sign": sanitizeComponent(_2d297eb3) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_sign": sanitizeComponent(_2d297eb3),"_video": sanitizeComponent(_78309245) }
 
 export default {
   render (h, props) {
