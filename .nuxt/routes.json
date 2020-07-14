@@ -35,11 +35,11 @@
     "_name": "_9fcdf3f2"
   },
   {
-    "name": "player-videoId",
-    "path": "/player/:videoId?",
-    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\player\\\\_videoId.vue",
-    "chunkName": "pages/player/_videoId",
-    "_name": "_7c219380"
+    "name": "player-vid",
+    "path": "/player/:vid?",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\player\\\\_vid.vue",
+    "chunkName": "pages/player/_vid",
+    "_name": "_7916b41b"
   },
   {
     "name": "teacher-id",

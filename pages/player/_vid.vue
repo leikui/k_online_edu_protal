@@ -1,27 +1,25 @@
 <template>
   <div>
     <!-- 阿里云视频播放器样式 -->
-    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.1/skins/default/aliplayer-min.css" >
+    <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.8.2/skins/default/aliplayer-min.css" />
     <!-- 阿里云视频播放器脚本 -->
-    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.1/aliplayer-min.js" />
-    <!-- 定义播放器dom -->
-    <div id="J_prismPlayer" class="prism-player" />
+    <script charset="utf-8" type="text/javascript" src="https://g.alicdn.com/de/prismplayer/2.8.2/aliplayer-min.js"></script>    <!-- 定义播放器dom -->
+    <div class="prism-player" id="player-con"></div>
   </div>
 </template>
 <script>
   import vod from '@/api/vod'
   export default {
-
     layout: 'video',//应用video布局
     asyncData({ params, error }) {
-      return vod.getVodPlayerAuth(params.videoId).then(response => {
+      return vod.getVodPlayerAuth(params.vid).then(response => {
         // console.log(response.data.data)
         return {
-          vid: params.videoId,
+          vid: params.vid,
           playAuth: response.data.auth
         }
-        console.log(this.playAuth)
       })
+
     },
     /**
      * 页面渲染完成时：此时js脚本已加载，Aliplayer已定义，可以使用
@@ -30,12 +28,17 @@
     mounted() {
 
       new Aliplayer({
-        id: 'J_prismPlayer',
+        id: 'player-con',
         vid: this.vid, // 视频id
-        playAuth: this.playAuth, // 播放凭证
+        playauth: this.playAuth, // 播放凭证
         encryptType: '1', // 如果播放加密视频，则需设置encryptType=1，非加密视频无需设置此项
-        width: '100%',
-        height: '500px'
+        width: "100%",
+        height: "500px",
+        cover: 'https://img.alicdn.com/tps/TB1EXIhOFXXXXcIaXXXXXXXXXXX-760-340.jpg',
+        /* To set an album art, you must set 'autoplay' and 'preload' to 'false' */
+        autoplay: false,
+        preload: false,
+        isLive: false
       }, function(player) {
         console.log('播放器创建成功')
       })
