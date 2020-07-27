@@ -11,10 +11,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="10a6cd34-4ef7-45fe-98a2-c5f5ea8747f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/activity_tab.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bottom_rec.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/nice_select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/pages-weixinpay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/swiper-3.3.1.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/cart_setp2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/f12c399b34115265a7a8a4da329b45d0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/phone-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/article/hot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/course/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/customer/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/customer/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/customer/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/customer/avatar-boy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/photo/teacher/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/orders/_oid.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/.nuxt/routes.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/player/_videoId.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/player/_vid.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/sign.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/sign.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/web.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/web.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/course/_id.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/course/_id.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +81,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="JavaScript File" />
+        <option value="package.json" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -42,13 +99,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wrok\IdeaProjects\k_online_edu_protal\k_online_edu_protal\api" />
       <recent name="D:\wrok\IdeaProjects\k_online_edu_protal\k_online_edu_protal\assets" />
+      <recent name="D:\wrok\IdeaProjects\k_online_edu_protal\k_online_edu_protal\api" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -61,7 +118,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593875744822</updated>
-      <workItem from="1593875746084" duration="63831000" />
+      <workItem from="1593875746084" duration="68373000" />
+      <workItem from="1594996434214" duration="6538000" />
+      <workItem from="1595128445771" duration="10257000" />
+      <workItem from="1595334020172" duration="4408000" />
     </task>
     <servers />
   </component>
@@ -78,12 +138,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="377" y="213" key="run.anything.popup" timestamp="1594219930765">
+    <state x="377" y="213" key="run.anything.popup" timestamp="1595053801781">
       <screen x="0" y="0" width="1440" height="929" />
     </state>
-    <state x="377" y="213" key="run.anything.popup/0.0.1440.929@0.0.1440.929" timestamp="1594219930765" />
+    <state x="377" y="213" key="run.anything.popup/0.0.1440.929@0.0.1440.929" timestamp="1595053801781" />
     <state x="383" y="198" width="672" height="678" key="search.everywhere.popup" timestamp="1594386704951">
       <screen x="0" y="0" width="1440" height="929" />
     </state>

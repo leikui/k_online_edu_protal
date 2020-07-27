@@ -33,8 +33,11 @@
                 <a class="c-fff vam" title="收藏" href="#" >收藏</a>
               </span>
             </section>
-            <section class="c-attr-mt">
+            <section class="c-attr-mt" v-if="Number(courseWebVo.price) === 0 || isBuy">
               <a href="#" title="立即观看" class="comm-btn c-btn-3">立即观看</a>
+            </section>
+            <section class="c-attr-mt" v-else>
+              <a href="#" title="立即购买" @click="createOrders" class="comm-btn c-btn-3">立即购买</a>
             </section>
           </section>
         </aside>
@@ -160,16 +163,41 @@
 </template>
 <script>
 import courseApi from "~/api/course";
+import orderApi from "~/api/order";
   export default {
     asyncData({params,error}){
       console.log(params.id)
-      return courseApi.getCourseInfo(params.id)
-        .then(response => {
-          return {
-            courseWebVo: response.data.courseWebVo,
-            chapters: response.data.chapters
-          }
-        })
+      return {courseId:params.id}
+    },
+    data(){
+      return {
+        courseWebVo: {},
+        chapters: [],
+        isBuy: false
+      }
+    },
+    created() {
+      this.getCourseDetails()
+    },
+    methods: {
+      createOrders(){
+        orderApi.createOrder(this.courseId)
+          .then(resp => {
+            let orderNo = resp.data.orderNo
+            //跳转订单页面
+            this.$router.push({path:'/orders/' + orderNo})
+
+          })
+      },
+      //查询课程详情
+      getCourseDetails(){
+        courseApi.getCourseInfo(this.courseId)
+          .then(response => {
+              this.courseWebVo = response.data.courseWebVo,
+              this.chapters = response.data.chapters,
+              this.isBuy = response.data.isBuy
+          })
+      }
     }
   };
 </script>

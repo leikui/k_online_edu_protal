@@ -35,6 +35,20 @@
     "_name": "_9fcdf3f2"
   },
   {
+    "name": "orders-oid",
+    "path": "/orders/:oid?",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\orders\\\\_oid.vue",
+    "chunkName": "pages/orders/_oid",
+    "_name": "_3ca4a858"
+  },
+  {
+    "name": "pay-pid",
+    "path": "/pay/:pid?",
+    "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\pay\\\\_pid.vue",
+    "chunkName": "pages/pay/_pid",
+    "_name": "_772c4f7c"
+  },
+  {
     "name": "player-vid",
     "path": "/player/:vid?",
     "component": "D:\\\\wrok\\\\IdeaProjects\\\\k_online_edu_protal\\\\k_online_edu_protal\\\\pages\\\\player\\\\_vid.vue",

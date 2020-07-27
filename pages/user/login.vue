@@ -53,7 +53,6 @@
     methods: {
       submitLogin(){
         loginApi.submitLogin(this.user).then(response => {
-          debugger
           if(response.success){
             //把token存在cookie中、也可以放在localStorage中
             cookie.set('oyyo_token', response.data.token, { domain: 'localhost' })
